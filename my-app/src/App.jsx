@@ -5,6 +5,7 @@ import Certifications from "./components/Certifications";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -20,6 +21,7 @@ function App() {
       <Hero scrollToSection={scrollToSection} />
       <About />
       <Certifications />
+      <Projects />
       <Skills />
       <Contact />
       <Footer />
