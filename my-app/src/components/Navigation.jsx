@@ -11,7 +11,7 @@ const Navigation = () => {
       setIsScrolled(window.scrollY > 50);
 
       // Update active section based on scroll position
-      const sections = ["home", "about", "certifications", "skills", "contact"];
+      const sections = ["home", "about", "certifications", "projects", "skills", "contact"];
       const current = sections.find((section) => {
         const element = document.getElementById(section);
         if (element) {
@@ -39,6 +39,7 @@ const Navigation = () => {
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "certifications", label: "Certifications" },
+    { id: "projects", label: "Projects" },
     { id: "skills", label: "Skills" },
     { id: "contact", label: "Contact" },
   ];
@@ -81,7 +82,13 @@ const Navigation = () => {
             ))}
           </div>
 
-          
+          {/* Mobile Hamburger */}
+          <button
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+            className="md:hidden text-slate-300 hover:text-cyan-400 transition-colors"
+          >
+            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
 
         {/* Mobile Navigation */}

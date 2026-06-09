@@ -2,7 +2,7 @@ const Skills = () => {
   const skillsData = [
     {
       category: 'Web Development',
-      items: ['HTML', 'CSS', 'Bootstrap', 'PHP', 'JavaScript', 'Responsive Design']
+      items: ['HTML', 'CSS', 'Bootstrap', 'PHP', 'JavaScript', 'Responsive Design', 'React Framework', 'Tailwind CSS', 'TypeScript']
     },
     {
       category: 'Mobile Development',
@@ -14,11 +14,15 @@ const Skills = () => {
     },
     {
       category: 'Tools & Technologies',
-      items: ['Git', 'VS Code', 'Canva', 'AI-Assisted Development', 'Prompt Engineering', 'Code Debugging']
+      items: ['Git', 'VS Code', 'Canva', 'AI-Assisted Development', 'Prompt Engineering', 'Code Debugging', 'Jira']
     },
     {
       category: 'Data & Analytics',
       items: ['Data Analytics', 'Data Science Fundamentals', 'Data Visualization', 'Problem Analysis']
+    },
+    {
+      category: 'ERP Systems & Frameworks',
+      items: ['ERPNext', 'Frappe', 'Server Script', 'Client Script', 'Custom App Development', 'Workflow and Custom DocTypes']
     },
     {
       category: 'Soft Skills',

@@ -1,5 +1,5 @@
 import { ChevronDown } from "lucide-react";
-import profileImg from "../assets/photos/pfp.jpg";
+import profileImg from "../assets/photos/pfp.jpeg";
 
 const Hero = ({ scrollToSection }) => {
   return (
@@ -36,10 +36,10 @@ const Hero = ({ scrollToSection }) => {
           style={{ animationDelay: "0.2s" }}
         >
           <button
-            onClick={() => scrollToSection("certifications")}
+            onClick={() => scrollToSection("projects")}
             className="px-8 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-medium hover:shadow-lg hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
           >
-            View Certifications
+            View Projects
           </button>
           <button
             onClick={() => scrollToSection("contact")}

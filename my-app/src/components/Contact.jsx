@@ -92,7 +92,7 @@ const Contact = () => {
                 <h4 className="text-slate-200 font-semibold mb-4">Connect With Me</h4>
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/johnausthin"
+                    href="https://github.com/austhiiin"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-slate-800 hover:bg-gradient-to-br hover:from-cyan-500 hover:to-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"
@@ -102,7 +102,7 @@ const Contact = () => {
                     </svg>
                   </a>
                   <a
-                    href="https://linkedin.com/in/johnausthin"
+                    href="https://www.linkedin.com/in/john-austhin-sabater-4a1b4a26a/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-12 h-12 bg-slate-800 hover:bg-gradient-to-br hover:from-cyan-500 hover:to-blue-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110"

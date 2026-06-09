@@ -20,8 +20,8 @@ const About = () => {
           <p className="text-lg text-slate-300 mb-6 leading-relaxed">
             My journey in technology has been driven by curiosity and a desire
             to create solutions that make a difference. With hands-on experience
-            in web development using HTML, CSS, Bootstrap, and PHP, as well as
-            mobile app development with Flutter and Dart, I'm constantly
+            in web development using HTML, CSS, Bootstrap, Tailwind, and React Framework, 
+            as well as mobile app development with Flutter and Dart, I'm constantly
             expanding my knowledge and exploring new technologies.
           </p>
           <p className="text-lg text-slate-300 mb-8 leading-relaxed">
@@ -38,8 +38,11 @@ const About = () => {
             <div className="space-y-6">
               <div className="border-l-2 border-cyan-500 pl-6">
                 <h4 className="text-xl font-semibold text-slate-200">
-                  Bachelor of Science in Information Technology
+                  Bachelor of Science in Information Technology, Magna Cum Laude
                 </h4>
+                <p className="text-slate-300 mb-2">
+                  Major in Software Development
+                </p>
                 <p className="text-cyan-400 mb-2">
                   Pamantasan ng Lungsod ng San Pablo
                 </p>
@@ -92,19 +95,21 @@ const About = () => {
 
           {/* Work Experience */}
           <div className="mt-8 pt-8 border-t border-slate-700">
-            <h3 className="text-2xl font-bold text-cyan-400 mb-6">
-              Experience
-            </h3>
-            <div className="border-l-2 border-cyan-500 pl-6">
-              <h4 className="text-xl font-semibold text-slate-200">
-                Special Program for Employment of Students
-              </h4>
-              <p className="text-cyan-400 mb-2">
-                Municipal Government of Nagcarlan
-              </p>
-              <p className="text-slate-400 text-sm">
-                Nagcarlan, Laguna • 2021 - 2022
-              </p>
+            <h3 className="text-2xl font-bold text-cyan-400 mb-6">Experience</h3>
+            <div className="space-y-6">
+              <div className="border-l-2 border-cyan-500 pl-6">
+                <h4 className="text-xl font-semibold text-slate-200">
+                  Junior Frontend Developer Intern
+                </h4>
+                <p className="text-cyan-400 mb-2">
+                 Prime Biznest Management Corp
+                </p>
+                <p className="text-slate-400 text-sm">
+                  San Pablo City, Laguna • February 2026 - May 2026
+                </p>
+              </div>
+
+              
             </div>
           </div>
         </div>
